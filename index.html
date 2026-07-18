@@ -1,9 +1,443 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simar Kaur | PropConnect Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to my Portfolio</h1>
+
+    <header class="navbar">
+        <div class="container nav-content">
+
+            <a href="#home" class="logo">
+                Simar Kaur
+            </a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#project">Project</a>
+                <a href="#features">Features</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <p class="eyebrow">
+                    Full Stack Development Project
+                </p>
+
+                <h1>
+                    PropConnect
+                </h1>
+
+                <h2>
+                    A Property Buying, Selling and Rental Management Platform
+                </h2>
+
+                <p class="hero-description">
+                    PropConnect is a full-stack real estate web application that
+                    allows buyers, sellers and tenants to discover, list and manage
+                    properties through a simple digital platform.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#project" class="btn btn-primary">
+                        View Project
+                    </a>
+
+                    <a
+                        href="https://github.com/simarkaurishe-afk"
+                        class="btn btn-secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub Profile
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>About Me</p>
+                    <h2>Full Stack Development Student</h2>
+                </div>
+
+                <div class="about-card">
+
+                    <p>
+                        I am a full-stack development student with practical
+                        experience in Angular, TypeScript, ASP.NET Core Web API,
+                        C#, Entity Framework Core and Microsoft SQL Server.
+                    </p>
+
+                    <p>
+                        I developed PropConnect to demonstrate frontend development,
+                        backend API creation, database integration, authentication,
+                        property management, image uploading, search functionality
+                        and responsive interface design.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section alternate" id="project">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Featured Project</p>
+                    <h2>PropConnect</h2>
+                </div>
+
+                <div class="project-grid">
+
+                    <div class="project-image-wrapper">
+
+                        <img
+                            src="images/home-page.png"
+                            alt="PropConnect home page"
+                            class="project-main-image"
+                        >
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Project Overview</h3>
+
+                        <p>
+                            PropConnect is a full-stack web application developed
+                            to simplify the process of buying, selling and renting
+                            residential and commercial properties.
+                        </p>
+
+                        <p>
+                            Sellers can add complete property information and upload
+                            multiple images. Buyers and tenants can browse listings,
+                            search by city, property type, listing type and budget,
+                            and view detailed property information.
+                        </p>
+
+                        <div class="technology-tags">
+
+                            <span>Angular</span>
+                            <span>TypeScript</span>
+                            <span>ASP.NET Core</span>
+                            <span>C#</span>
+                            <span>SQL Server</span>
+                            <span>Entity Framework Core</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Core Capabilities</p>
+                    <h2>Project Features</h2>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <h3>User Authentication</h3>
+                        <p>
+                            Users can register and log in as buyers or sellers.
+                            Passwords are securely stored using BCrypt hashing.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Property Management</h3>
+                        <p>
+                            Sellers can add, update, view and delete property
+                            listings through complete CRUD functionality.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Multiple Image Upload</h3>
+                        <p>
+                            Sellers can upload multiple property images, which are
+                            displayed on the property details page.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Search and Filters</h3>
+                        <p>
+                            Users can search properties using city, budget,
+                            property type and listing type filters.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Responsive Interface</h3>
+                        <p>
+                            The Angular frontend includes landing, login,
+                            registration, home, sell, rent and details pages.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>REST API Integration</h3>
+                        <p>
+                            The Angular frontend communicates with ASP.NET Core
+                            Web API using HTTP requests and REST principles.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section alternate">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Technical Structure</p>
+                    <h2>Application Architecture</h2>
+                </div>
+
+                <div class="architecture">
+
+                    <div class="architecture-box">
+                        <span>Frontend</span>
+                        <strong>Angular</strong>
+                        <small>HTML, CSS and TypeScript</small>
+                    </div>
+
+                    <div class="architecture-arrow">
+                        →
+                    </div>
+
+                    <div class="architecture-box">
+                        <span>Backend</span>
+                        <strong>ASP.NET Core</strong>
+                        <small>RESTful Web API</small>
+                    </div>
+
+                    <div class="architecture-arrow">
+                        →
+                    </div>
+
+                    <div class="architecture-box">
+                        <span>Database</span>
+                        <strong>SQL Server</strong>
+                        <small>Entity Framework Core</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="screenshots">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Project Preview</p>
+                    <h2>Application Screenshots</h2>
+                </div>
+
+                <div class="screenshot-grid">
+
+                    <figure class="screenshot-card">
+                        <img
+                            src="images/home-page.png"
+                            alt="PropConnect home page"
+                        >
+                        <figcaption>Home Page</figcaption>
+                    </figure>
+
+                    <figure class="screenshot-card">
+                        <img
+                            src="images/login-page.png"
+                            alt="PropConnect login page"
+                        >
+                        <figcaption>Login Page</figcaption>
+                    </figure>
+
+                    <figure class="screenshot-card">
+                        <img
+                            src="images/register-page.png"
+                            alt="PropConnect registration page"
+                        >
+                        <figcaption>Registration Page</figcaption>
+                    </figure>
+
+                    <figure class="screenshot-card">
+                        <img
+                            src="images/sell-property-top.png"
+                            alt="PropConnect sell property page"
+                        >
+                        <figcaption>Sell Property Page</figcaption>
+                    </figure>
+
+                    <figure class="screenshot-card">
+                        <img
+                            src="images/sell-property-form.png"
+                            alt="PropConnect property form"
+                        >
+                        <figcaption>Property Listing Form</figcaption>
+                    </figure>
+
+                    <figure class="screenshot-card">
+                        <img
+                            src="images/property-details.png"
+                            alt="PropConnect property details page"
+                        >
+                        <figcaption>Property Details Page</figcaption>
+                    </figure>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section alternate">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Development Tools</p>
+                    <h2>Technology Stack</h2>
+                </div>
+
+                <div class="stack-grid">
+
+                    <div class="stack-card">
+                        <h3>Frontend</h3>
+                        <p>Angular, HTML5, CSS3 and TypeScript</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <h3>Backend</h3>
+                        <p>ASP.NET Core Web API, C# and Entity Framework Core</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <h3>Database</h3>
+                        <p>Microsoft SQL Server and SQL Server Management Studio</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <h3>Tools</h3>
+                        <p>Visual Studio, Visual Studio Code, Swagger, Git and GitHub</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Future Development</p>
+                    <h2>Future Scope</h2>
+                </div>
+
+                <div class="future-card">
+
+                    <p>
+                        Future improvements may include JWT authentication, an admin
+                        dashboard, saved properties, direct buyer-seller messaging,
+                        email notifications, Google Maps integration, online payment
+                        support, cloud deployment and AI-based property recommendations.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact-section" id="contact">
+
+            <div class="container contact-content">
+
+                <div>
+                    <p class="contact-label">Contact</p>
+                    <h2>Let us connect</h2>
+                    <p>
+                        View my development work and PropConnect source code through
+                        my GitHub profile.
+                    </p>
+                </div>
+
+                <a
+                    href="https://github.com/simarkaurishe-afk"
+                    class="btn btn-light"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit GitHub
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Simar Kaur. PropConnect Project Portfolio.
+            </p>
+
+            <a href="#home">
+                Back to top
+            </a>
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
